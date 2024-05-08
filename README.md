@@ -14,3 +14,5 @@ Repositório para armazenar resumos sobre Git e Github do curso Versionamento de
 |-----| ------ |
 |Clona o repositório online para local e permite edição individual |Armazena o repositório online e as modificações dos usuários |
 |[Resumo]() | [Resumo]() |
+
+### repositório remoto
