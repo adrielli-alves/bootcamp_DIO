@@ -2,7 +2,8 @@
     "java.project.sourcePaths": [
         "segundasemana",
         "primeirasemana",
+        "operadores",
         "anatomia_de_classes",
-        "operadores"
+        "metodos"
     ]
 }
