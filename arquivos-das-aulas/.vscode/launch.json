@@ -1,0 +1,82 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "App(1)",
+            "request": "launch",
+            "mainClass": "anatomia_de_classes.App",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "BoletimEstudantil",
+            "request": "launch",
+            "mainClass": "anatomia_de_classes.BoletimEstudantil",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse",
+            "request": "launch",
+            "mainClass": "anatomia_de_classes.MinhaClasse",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "ExemploMetodos",
+            "request": "launch",
+            "mainClass": "metodos.ExemploMetodos",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "Usuario",
+            "request": "launch",
+            "mainClass": "metodos.Usuario",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "ExemploOperadores",
+            "request": "launch",
+            "mainClass": "operadores.ExemploOperadores",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse",
+            "request": "launch",
+            "mainClass": "terminal_e_argumento.MinhaClasse",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "SobreMim",
+            "request": "launch",
+            "mainClass": "terminal_e_argumento.SobreMim",
+            "args": [
+                "Adrielli",
+                "Alves",
+                "21",
+                "1.55"
+            ]
+        }
+    ]
+}

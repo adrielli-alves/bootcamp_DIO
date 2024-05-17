@@ -16,6 +16,13 @@ public class SobreMim {
          * Exemplo:
          * Já no cmd, dentro da pasta bin, inserir a informação:
          * java SobreMim Adrielli Alves 21 1.55
+         *
+         * Por esse arquivo estar dentro de uma pasta, é necessário inserir esse caminho no cmd:
+         * terminal_e_argumento.SobreMim
+         * 
+         * Para que as informações sejam apresentadas na IDE, abrir o arquivo launch.json
+         * na pasta .vscode e editar (ou adicionar) o campo args no campo de código correspondente
+         * 
          */
     }
     
