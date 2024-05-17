@@ -1,3 +1,4 @@
+package operadores;
 public class ExemploOperadores {
     public static void main(String[] args) {
         int numero = 6;
