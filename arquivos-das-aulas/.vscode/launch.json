@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SobreMimScanner",
+            "request": "launch",
+            "mainClass": "terminal_e_argumento.SobreMimScanner",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
