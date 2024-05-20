@@ -7,6 +7,7 @@ public class ExemploOperadores {
         System.out.println(-numero2);
         
         System.out.println(numero==numero2 ? "números iguais" : "números diferentes");
+        System.out.println(numero==numero2 ? "números iguais" : numero>numero2 ? "numero 1 maior" : "número 2 maior");
 
         boolean variavel = true;
         System.out.println(variavel);
