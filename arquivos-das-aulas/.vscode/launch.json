@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EstruturaExcepcional",
+            "request": "launch",
+            "mainClass": "ControledeFluxo.EstruturaExcepcional",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "EstruturaRepeticao",
+            "request": "launch",
+            "mainClass": "ControledeFluxo.EstruturaRepeticao",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "EstruturaCondicional",
+            "request": "launch",
+            "mainClass": "operadores.EstruturaCondicional",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
             "name": "SobreMimScanner",
             "request": "launch",
             "mainClass": "terminal_e_argumento.SobreMimScanner",
