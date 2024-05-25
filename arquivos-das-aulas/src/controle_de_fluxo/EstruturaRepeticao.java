@@ -1,4 +1,4 @@
-package ControledeFluxo;
+package controle_de_fluxo;
 
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.Random;

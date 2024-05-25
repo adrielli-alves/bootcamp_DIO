@@ -1,4 +1,4 @@
-package ControledeFluxo;
+package controle_de_fluxo;
 
 import java.util.InputMismatchException;
 import java.util.Locale;

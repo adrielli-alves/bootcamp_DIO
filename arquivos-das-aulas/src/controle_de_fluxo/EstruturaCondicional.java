@@ -1,4 +1,4 @@
-package ControledeFluxo;
+package controle_de_fluxo;
 
 public class EstruturaCondicional {
     public static void main (String[] args) {
