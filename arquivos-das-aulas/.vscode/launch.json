@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalculadoraDeMedias",
+            "request": "launch",
+            "mainClass": "debugging.CalculadoraDeMedias",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "PilhaDeExecucao",
+            "request": "launch",
+            "mainClass": "debugging.PilhaDeExecucao",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
             "name": "EstruturaExcepcional",
             "request": "launch",
             "mainClass": "ControledeFluxo.EstruturaExcepcional",
