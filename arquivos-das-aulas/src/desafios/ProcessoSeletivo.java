@@ -4,12 +4,12 @@
  * tentativas de contato
  */
 
-package processo_seletivo;
+package desafios;
 
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class SelecaoDeCantidatos {
+public class ProcessoSeletivo {
     public static void main(String[] args) {
         // Nome de todos os candidatos
         String[] candidatos = { "Felipe", "Marcia", "Julia", "Paulo", "Augusto", "Monica", "Fabricio", "Mirela",
