@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DesafioControleFluxo",
+            "request": "launch",
+            "mainClass": "desafios.DesafioControleFluxo",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
             "name": "SelecaoDeCantidatos",
             "request": "launch",
             "mainClass": "processo_seletivo.SelecaoDeCantidatos",
