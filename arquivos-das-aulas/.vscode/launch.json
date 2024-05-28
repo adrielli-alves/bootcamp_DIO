@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ControleSimplesDeSaques",
+            "request": "launch",
+            "mainClass": "desafios.ControleSimplesDeSaques",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "ContaBancaria",
+            "request": "launch",
+            "mainClass": "desafios.ContaBancaria",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "Salario",
+            "request": "launch",
+            "mainClass": "desafios.Salario",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "OperacaoBancaria",
+            "request": "launch",
+            "mainClass": "desafios.OperacaoBancaria",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
+            "name": "SalarioJava",
+            "request": "launch",
+            "mainClass": "desafios.SalarioJava",
+            "projectName": "arquivos-das-aulas_34675e0c"
+        },
+        {
+            "type": "java",
             "name": "DesafioControleFluxo",
             "request": "launch",
             "mainClass": "desafios.DesafioControleFluxo",
