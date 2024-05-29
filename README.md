@@ -1,18 +1,9 @@
-# DIO | Resumos Git e Github
+# DIO | Santander 2024 - Backend com Java
 
-Repositório para armazenar resumos sobre Git e Github do curso Versionamento de Código Git e Github da [Digital Innovation One](https://www.dio.me/)
+Repositório para armazenar as atividades e aprendizados adiquiridos no bootcamp Java da [Digital Innovation One](https://www.dio.me/)
 
 ## 📄 Informações
-- Controle de versão distribuído
-- Open Source (código aberto)
-- Ramificações eficientes e rápido
-- Criado pelo desenvolvedor do Linux
-
-## Diferenças
-
-| Git | Github |
-|-----| ------ |
-|Clona o repositório online para local e permite edição individual |Armazena o repositório online e as modificações dos usuários |
-|[Resumo]() | [Resumo]() |
-
-### repositório remoto3
+- Conteúdos são separados por pastas;
+- Cada pasta contêm as atividades de um módulo específico;
+- Dentro de cada módulo, há a divisão por cursos e aulas;
+- Os certificados de conhecimento não estão inclusos no conteúdo.
