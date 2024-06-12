@@ -1,4 +1,4 @@
-package pilares_da_poo.desafios.Celular;
+package pilares_da_poo.desafios.celular;
 
 public interface AparelhoTelefonico {
     public void ligar(String numero);

@@ -1,4 +1,4 @@
-package pilares_da_poo.desafios.Celular;
+package pilares_da_poo.desafios.celular;
 
 public class Iphone {
     public static void main(String[] args) {
