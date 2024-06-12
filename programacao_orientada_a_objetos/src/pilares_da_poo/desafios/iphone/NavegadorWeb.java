@@ -1,4 +1,4 @@
-package pilares_da_poo.desafios.celular;
+package pilares_da_poo.desafios.iphone;
 
 public interface NavegadorWeb {
     public void exibirPagina(String url);
