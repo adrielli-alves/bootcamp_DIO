@@ -1,4 +1,4 @@
-package pilares_da_poo.desafios.Celular;
+package pilares_da_poo.desafios.iphone;
 
 public class FuncoesCelular implements AparelhoTelefonico, NavegadorWeb, ReprodutorMusical{
 
