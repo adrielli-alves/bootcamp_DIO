@@ -63,7 +63,6 @@ public class CarrinhoDeCompras {
     }
   }
 
-  @Override
   public String toString() {
     return "CarrinhoDeCompras{" +
         "itens=" + itemList +
@@ -75,10 +74,10 @@ public class CarrinhoDeCompras {
     CarrinhoDeCompras carrinhoDeCompras = new CarrinhoDeCompras();
 
     // Adicionando itens ao carrinho
-    carrinhoDeCompras.adicionarItem("Lápis", 2d, 3);
-    carrinhoDeCompras.adicionarItem("Lápis", 2d, 3);
-    carrinhoDeCompras.adicionarItem("Caderno", 35d, 1);
-    carrinhoDeCompras.adicionarItem("Borracha", 2d, 2);
+    carrinhoDeCompras.adicionarItem("Lápis", 2.4d, 3);
+    carrinhoDeCompras.adicionarItem("Lápis", 2.4d, 3);
+    carrinhoDeCompras.adicionarItem("Caderno", 35.99d, 1);
+    carrinhoDeCompras.adicionarItem("Borracha", 2.99d, 2);
 
     // Exibindo os itens no carrinho
     carrinhoDeCompras.exibirItens();
