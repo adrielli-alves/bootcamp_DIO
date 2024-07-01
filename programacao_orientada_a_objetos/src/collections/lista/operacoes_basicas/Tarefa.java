@@ -1,4 +1,4 @@
-package collections.operacoes_basicas;
+package collections.lista.operacoes_basicas;
 
 public class Tarefa {
   // define o atributo descrição
