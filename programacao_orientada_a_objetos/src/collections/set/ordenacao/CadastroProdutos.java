@@ -30,10 +30,10 @@ public class CadastroProdutos {
         CadastroProdutos produtosCadastrados = new CadastroProdutos();
 
         System.out.println("\nAdicionando produtos\n");
-        produtosCadastrados.adicionarProduto(1L, "arroz", 15.19d, 2);
-        produtosCadastrados.adicionarProduto(2L, "feijao", 7.61d, 1);
-        produtosCadastrados.adicionarProduto(3L, "sal", 4.25d, 3);
-        produtosCadastrados.adicionarProduto(2L, "acucar", 5.23d, 2);
+        produtosCadastrados.adicionarProduto(1L, "arroz", 15.19, 2);
+        produtosCadastrados.adicionarProduto(2L, "feijao", 7.61, 1);
+        produtosCadastrados.adicionarProduto(3L, "sal", 4.25, 3);
+        produtosCadastrados.adicionarProduto(2L, "acucar", 5.23, 2);
         
         System.out.println("\nExibindo por nome\n");
         System.out.println(produtosCadastrados.exibirProdutosPorNome());
