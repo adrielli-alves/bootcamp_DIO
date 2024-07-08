@@ -1,7 +1,5 @@
 package collections.set.operacoes_basicas;
 
-import java.util.Objects;
-
 public class Convidado {
   //atributos
   private String nome;
@@ -21,15 +19,25 @@ public class Convidado {
   }
 
   @Override
-  public boolean equals(Object o) {
-    if (this == o) return true;
-    if (!(o instanceof Convidado convidado)) return false;
-    return getCodigoConvite() == convidado.getCodigoConvite();
+  public int hashCode() {
+    final int prime = 31;
+    int result = 1;
+    result = prime * result + codigoConvite;
+    return result;
   }
 
   @Override
-  public int hashCode() {
-    return Objects.hash(getCodigoConvite());
+  public boolean equals(Object obj) {
+    if (this == obj)
+      return true;
+    if (obj == null)
+      return false;
+    if (getClass() != obj.getClass())
+      return false;
+    Convidado other = (Convidado) obj;
+    if (codigoConvite != other.codigoConvite)
+      return false;
+    return true;
   }
 
   @Override
