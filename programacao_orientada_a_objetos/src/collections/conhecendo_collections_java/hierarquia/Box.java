@@ -1,4 +1,4 @@
-package conhecendo_collections_java.hierarquia;
+package collections.conhecendo_collections_java.hierarquia;
 
 public class Box<T> {
     //T == type

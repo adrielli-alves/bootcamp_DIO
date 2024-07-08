@@ -1,4 +1,4 @@
-package conhecendo_collections_java.hierarquia;
+package collections.conhecendo_collections_java.hierarquia;
 
 import java.util.HashMap;
 import java.util.Map;

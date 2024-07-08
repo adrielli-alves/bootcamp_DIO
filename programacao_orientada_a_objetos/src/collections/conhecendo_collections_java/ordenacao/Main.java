@@ -1,4 +1,4 @@
-package conhecendo_collections_java.ordenacao;
+package collections.conhecendo_collections_java.ordenacao;
 
 import java.util.ArrayList;
 import java.util.Collections;
