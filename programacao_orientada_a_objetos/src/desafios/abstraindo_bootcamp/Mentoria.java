@@ -18,9 +18,10 @@ public class Mentoria extends Conteudo {
 
     // to String
     public String toString() {
-        return "Mentoria [Titulo= " + getTitulo()
-                + ", descrição= " + getDescricao() +
-                " data= " + getData();
+        return "Mentoria [" + 
+                "Titulo= " + getTitulo() +
+                ", descrição= " + getDescricao() +
+                ", data= " + getData() + "]";
     }
 
     // construção do calculo de XP

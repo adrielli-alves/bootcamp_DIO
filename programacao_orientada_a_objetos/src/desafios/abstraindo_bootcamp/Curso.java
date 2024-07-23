@@ -16,9 +16,10 @@ public class Curso extends Conteudo {
 
     // to String
     public String toString() {
-        return "Mentoria [Titulo= " + getTitulo()
-                + ", descrição= " + getDescricao() +
-                " cargaHoraria= " + getCargaHoraria();
+        return "Curso [" +
+                "Titulo= " + getTitulo() +
+                ", descrição= " + getDescricao() +
+                ", cargaHoraria= " + getCargaHoraria() + "]";
     }
 
     // construção do calculo de XP

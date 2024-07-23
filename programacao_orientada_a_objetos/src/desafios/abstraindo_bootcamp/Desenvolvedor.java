@@ -1,15 +1,40 @@
 package desafios.abstraindo_bootcamp;
 
 import java.util.LinkedHashSet;
+import java.util.Optional;
 import java.util.Set;
 
 public class Desenvolvedor {
 
     // atributos
-    // sets criados em LinkedHashSet pois cada conteudo é unico, e sua ordem de cadastro importa
+    // sets criados em LinkedHashSet pois cada conteudo é unico, e sua ordem de
+    // cadastro importa
     private String nome;
     private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>();
     private Set<Conteudo> conteudosConcluidos = new LinkedHashSet<>();
+
+    // inscrição do desenvolvedor no conteúdo completo de um bootcamp
+    public void inscreverBootcamp(Bootcamp bootcamp) {
+        this.conteudosInscritos.addAll(bootcamp.getConteudos());
+        bootcamp.getDevsInscritos().add(this);
+    }
+
+    // progressao nos conteudos inscritos
+    public void progredir() {
+        // extrai o primeiro conteúdo do set, pois serão feitos em ordem de inscrição
+        Optional<Conteudo> conteudo = this.conteudosInscritos.stream().findFirst();
+        if (conteudo.isPresent()) {
+            this.conteudosConcluidos.add(conteudo.get());
+            this.conteudosInscritos.remove(conteudo.get());
+        } else {
+            System.err.println("Você não está matriculado em nenhum conteúdo");
+        }
+    }
+
+    // calculo baseado nos conteudos concluidos
+    public double calcularTotalXP() {
+        return this.conteudosConcluidos.stream().mapToDouble(conteudo -> conteudo.calcularXP()).sum();
+    }
 
     // getters and setters
     public String getNome() {
@@ -70,20 +95,5 @@ public class Desenvolvedor {
         } else if (!conteudosConcluidos.equals(other.conteudosConcluidos))
             return false;
         return true;
-    }
-
-    // inscrição do desenvolvedor no conteúdo completo de um bootcamp
-    public void inscrevetBootcamp(Bootcamp bootcamp) {
-
-    }
-
-    // progressao nos conteudos inscritos
-    public void progredir() {
-
-    }
-
-    // calculo baseado nos conteudos concluidos
-    public void calcularTotalXP() {
-
     }
 }
